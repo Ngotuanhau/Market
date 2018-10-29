@@ -4,7 +4,6 @@ import {
     Dimensions,
     Image,
     View,
-    StatusBar,
 } from 'react-native';
 import { Icon } from 'native-base'
 
@@ -45,6 +44,7 @@ class Logo extends Component {
 
 const styles = StyleSheet.create({
     form: {
+        //flex: 1,
         height: 100,
         width: width,
         backgroundColor: Colors.maincolor,
