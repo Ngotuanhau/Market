@@ -6,7 +6,6 @@ import Colors from './Colors'
 export default class Iconmenu extends Component {
     render() {
         return (
-
             <Icon name="ios-menu" size={26} style={styles.menuleft}
                 onPress={() => {
                     const { toggleDrawer } = this.props.drawerNavigation;

@@ -101,7 +101,6 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: Colors.maincolor,
         marginTop: 1,
-        //alignItems: 'center'
     },
 
     line: {
@@ -117,7 +116,7 @@ const styles = StyleSheet.create({
         justifyContent: 'space-around',
         alignItems: 'center',
         flexDirection: 'row',
-        //flex: 1
+
     },
 
     Tab: {
